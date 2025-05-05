@@ -177,6 +177,184 @@ textarea {
   font: inherit;
 }
 /* End extract */
+
+/*-- MIS ESTILOS AGREGADOS --*/
+.tablas{
+display: grid;
+grid-template-columns: 32% 32% 32%;
+grid-template-rows: 20% 10% 15% 10% 10% 25% 20%;
+position: relative;
+
+}
+
+1er{
+  grid-column: 1/4;
+  grid-row: 1/8;
+}
+
+2do{
+  grid-column: 2/4;
+  grid-row: 1/8;
+}
+3er{
+  grid-column: 3/4;
+  grid-row: 1/8;
+}
+
+4eto{
+  grid-column: 1/4;
+  grid-row: 2/8;
+}
+
+5to{
+  grid-column: 2/4;
+  grid-row: 2/8;
+}
+6to{
+  grid-column: 3/4;
+  grid-row: 2/8;
+}
+
+7mo{
+  grid-column: 1/4;
+  grid-row: 3/8;
+
+}
+8vo{
+  grid-column: 2/4;
+  grid-row: 3/8;
+}
+
+9no{
+  grid-column: 3/4;
+  grid-row: 3/8;
+}
+10mo{
+  grid-column: 1/4;
+  grid-row: 4/8;
+}
+
+11avo{
+  grid-column: 2/4;
+  grid-row: 4/8;
+}
+
+12vo{
+  grid-column: 3/4;
+  grid-row: 4/8;
+}
+13vo{
+  grid-column: 1/4;
+  grid-row: 5/8;
+}
+
+14avo{
+  grid-column: 2/4;
+  grid-row: 5/8;
+}
+
+15vo{
+  grid-column: 3/4;
+  grid-row: 5/8;
+}
+16vo{
+  grid-column: 1/4;
+  grid-row: 6/8;
+}
+
+17avo{
+  grid-column: 2/4;
+  grid-row: 6/8;
+}
+
+18vo{
+  grid-column: 3/4;
+  grid-row: 6/8;
+}
+19vo{
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+
+20avo{
+  grid-column: 2/4;
+  grid-row: 7/8;
+}
+
+21vo{
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+
+
+
+.panel{
+  display: flex;
+  position: relative;
+  width: 951px;
+  height: 530px;
+  background-color: white;
+  top: 192px;
+  left: 33px;
+  padding: 20px;
+  
+}
+
+.foto1{
+  text-align: center;
+  margin: 5 px;
+  position: relative;
+  width: 300px;
+  height: 529px;
+  
+  background-color: #F3F3F3;
+
+}
+
+.fondo1{
+ 
+  top: 292px
+  width: 300px;
+  height: 194px;
+  background-image: url(../img/me2.jpg);
+}
+
+.foto2{
+  text-align: center;
+  margin: 5 px;
+  position: relative;
+  width: 300px;
+  height: 529px;
+ 
+  background-color: #F3F3F3;
+
+}
+
+.fondo2{
+  
+  width: 300px;
+  height: 194px;
+  background-image: url(../img/nature.jpg);
+}
+
+.foto3{
+  margin: 5 px;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 529px;
+  background-color: #F3F3F3;
+
+}
+
+.fondo3{
+ 
+  width: 300px;
+  height: 194px;
+  background-image: url(..img/mountains.jpg);
+}
+
+
 html,
 body {
   font-family: Verdana, sans-serif;
